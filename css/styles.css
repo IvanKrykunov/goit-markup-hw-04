@@ -254,25 +254,29 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .icon-social {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 .icon-ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin: 0;
+  padding-bottom: 30px;
 }
 .icon-li {
+  width: 44px;
+  height: 44px;
   border-radius: 50px;
-  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon-ul .icon-li + .icon-li {
   margin-left: 10px;
 }
 .icon-li:hover {
-  background-color: red;
+  background-color: var(--accent-color);
+  fill: var(--primary-text-color);
 }
 
 .ul-team .li-team + .li-team {
