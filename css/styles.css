@@ -253,6 +253,26 @@ body {
 
   border-radius: 0px 0px 4px 4px;
 }
+.icon-social {
+  width: 44px;
+  height: 44px;
+}
+.icon-ul {
+  display: flex;
+
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.icon-li {
+  border-radius: 50px;
+}
+.icon-ul .icon-li + .icon-li {
+  margin-left: 10px;
+}
+.icon-li:hover {
+  background-color: red;
+}
+
 .ul-team .li-team + .li-team {
   margin-left: 30px;
 }
@@ -295,6 +315,26 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
+}
+/* Постійні клієнти */
+.customers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  color: var(--primary-text-color);
+}
+.ul-customers {
+  box-sizing: border-box;
+  display: flex;
+
+  width: 170px;
+  height: 92px;
+  background-color: #2196f3;
+}
+.icon-customers {
 }
 /* футер */
 .container-footer {
