@@ -183,7 +183,18 @@ body {
 .ul-2 .item + .item {
   margin-left: 30px;
 }
-
+.bg-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-secondary-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+.icon-s2 {
+  width: 70px;
+  height: 70px;
+}
 .ul-2 {
   display: flex;
   flex-wrap: wrap;
