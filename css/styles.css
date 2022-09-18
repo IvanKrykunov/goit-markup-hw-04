@@ -82,13 +82,7 @@ body {
 .siti-links .item + .item {
   margin-left: 50px;
 }
-.icon-envelope {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
 
-  fill: var(--secondary-text-color);
-}
 .icon-smartphone {
   width: 10px;
   height: 16px;
@@ -109,6 +103,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration-line: none;
+}
+.icon-envelope,
+.icon-tell {
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .links {
@@ -131,6 +130,7 @@ body {
 .links:hover,
 .links:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .icon-smartphone:hover,
 .icon-smartphone:focus {
@@ -407,6 +407,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.li-futer + .li-futer {
+  margin-left: 10px;
 }
 .icon-futer {
   display: flex;
