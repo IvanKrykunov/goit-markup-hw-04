@@ -278,6 +278,8 @@ body {
 }
 .icon-social:hover {
   fill: var(--background-main-color);
+  background-color: var(--accent-color);
+  fill: var(--primary-text-color);
 }
 
 .icon-ul {
@@ -296,10 +298,6 @@ body {
 }
 .icon-ul .icon-li + .icon-li {
   margin-left: 10px;
-}
-.icon-li:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-text-color);
 }
 
 .ul-team .li-team + .li-team {
