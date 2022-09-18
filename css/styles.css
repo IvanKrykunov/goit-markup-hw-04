@@ -278,8 +278,6 @@ body {
 }
 .icon-social:hover {
   fill: var(--background-main-color);
-  background-color: var(--accent-color);
-  fill: var(--primary-text-color);
 }
 
 .icon-ul {
@@ -298,6 +296,10 @@ body {
 }
 .icon-ul .icon-li + .icon-li {
   margin-left: 10px;
+}
+.icon-li:hover {
+  background-color: var(--accent-color);
+  fill: var(--background-main-color);
 }
 
 .ul-team .li-team + .li-team {
@@ -394,18 +396,21 @@ body {
 .address-futer {
   margin-top: 20px;
 }
+.network {
+  width: 206px;
+  height: 80px;
+  display: flex;
+  box-sizing: border-box;
+}
 
-.svg-futer {
-  width: 20px;
-  height: 20px;
+.icon-ul {
   border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .futer-h2 {
   color: var(--background-main-color);
 }
-.icon-futer {
-  margin-left: 516px;
-}
+
 .address {
   font-style: inherit;
 }
