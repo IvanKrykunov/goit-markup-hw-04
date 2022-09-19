@@ -429,6 +429,7 @@ body {
   fill: var(--background-main-color);
 }
 .container-footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -441,7 +442,6 @@ body {
 .network {
   width: 206px;
   height: 80px;
-  display: flex;
 }
 
 .icon-ul {
