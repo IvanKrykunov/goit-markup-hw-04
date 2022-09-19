@@ -369,11 +369,12 @@ body {
   height: 92px;
   justify-content: center;
   align-items: center;
-
   fill: #afb1b8;
 }
-.icon-customers:hover {
-  fill: #2196f3;
+.icon-customers:hover,
+.li-customers:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .ul-customers {
