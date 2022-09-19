@@ -73,7 +73,7 @@ body {
 }
 .siti-links {
   display: flex;
-  align-items: center;
+
   margin-left: auto;
 }
 .siti-nav .item + .item {
@@ -89,8 +89,6 @@ body {
   margin-right: 10px;
 }
 .icon-mail {
-  display: flex;
-  align-items: center;
   fill: var(--secondary-text-color);
 }
 .link {
@@ -111,7 +109,8 @@ body {
 }
 
 .links {
-  display: block;
+  align-items: center;
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -193,7 +192,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
 }
-.button-section1 :hover,
+.button-section1:hover,
 .button-section1:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -548,8 +547,8 @@ body {
   flex-wrap: wrap;
 }
 .portfolio-li:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-li:nth-child(-n + 9) {
   margin-right: 30px;
