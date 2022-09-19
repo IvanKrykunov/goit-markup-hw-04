@@ -367,6 +367,9 @@ body {
 .icon-customers:hover {
   fill: #2196f3;
 }
+.li-customers:hover {
+  fill: var(--accent-color);
+}
 
 .li-customers {
   box-sizing: border-box;
